@@ -13,6 +13,7 @@ const Selection = ({applyColor}) => {
       className="fix-box" 
       style={selectionStyle}
       onClick={() => applyColor(updateSelectionStyle)}>
+        Selection
     </div>
   )
 }
